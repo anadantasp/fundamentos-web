@@ -1,0 +1,85 @@
+/*Estilos da página index.html*/
+.center{
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.left{
+    text-align: left;
+}
+
+.cor-titulo{
+    color: olive;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+
+
+#menu li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: indianred;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+
+.tamanho-img-capalivro{
+height: 390px;
+width: 250px;
+}
+
+.tamanho-imagem-redesocial{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.c{
+    white-space:pre-line;
+}
+
+.margem-cima{
+    margin-top: 0px;
+}
+
+.margem-direita{
+    margin-right: 300px;
+}
+
+.margem-esquerda
+{
+    margin-left: 30px;
+}
+
+
+
+
+/*Estilos da página contato.html*/
+
+.ml-50 {
+    margin-left: 50px;
+}

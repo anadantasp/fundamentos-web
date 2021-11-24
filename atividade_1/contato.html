@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Contato</title>
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -16,29 +17,48 @@
         </li>
     </ul>
     
-    <h1>Entre em contato conosco:</h1>
+    <h1 class="center">Entre em contato conosco:</h1>
 
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container mb-50">
+        <div>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto</label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <h2>Onde estamos:</h2>
-    <p>R. Argentina, 171<br>
-       São Cristovão - RJ
-    </p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5749508343483!2d-43.227054385034684!3d-22.89215488501926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ee845533fd9%3A0x340f381d8b4294e4!2sR.%20Argentina%2C%20171%20-%20S%C3%A3o%20Crist%C3%B3v%C3%A3o%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020921-380!5e0!3m2!1spt-BR!2sbr!4v1637687166485!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="ml-50">
+            <h2>Onde estamos:</h2>
+            <div>R. Argentina, 171</div>
+            <div>São Cristovão - RJ</div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5749508343483!2d-43.227054385034684!3d-22.89215488501926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ee845533fd9%3A0x340f381d8b4294e4!2sR.%20Argentina%2C%20171%20-%20S%C3%A3o%20Crist%C3%B3v%C3%A3o%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020921-380!5e0!3m2!1spt-BR!2sbr!4v1637687166485!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/anadantasp" target="_blank">
+                <img class="tamanho-imagem-redesocial p-20"  src="assets/img/github.png" alt="Logo do GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/anadantasp/" target="_blank">
+                <img class="tamanho-imagem-redesocial p-20" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+        </div>
+
+        <p class="center">Todos os direitos reservados: Ana Prado &copy;</p>
+    </footer>
     
 </body>
 </html>
